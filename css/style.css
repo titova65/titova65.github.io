@@ -4,6 +4,10 @@
 	padding: 0;
 }
 
+html{
+	font-family: 'Roboto',sans-serif;
+}
+
 .container {
 	position: relative;
 	width: 1140px;
@@ -42,9 +46,9 @@ h2.title {
 
 .title {
 	color: #f9bf3b;
-	font-family: "Roboto - Black";
+	/*font-family: "Roboto - Black";*/
 	font-size: 41px;
-	font-weight: 400;
+	font-weight: 900;
 	line-height: 24px;
 	text-transform: uppercase;
 	text-align: center;
@@ -52,9 +56,9 @@ h2.title {
 
 .simple .title_big {
 	color: #ffffff;
-	font-family: "Roboto - Black";
+	/*font-family: "Roboto - Black";*/
 	font-size: 80px;
-	font-weight: 400;
+	font-weight: 4900;
 	/* line-height: 24px;*/
 	text-transform: uppercase;
 	text-align: center;
@@ -65,7 +69,7 @@ h2.title {
 	padding: 0 13px;
 	margin-top: 23px;
 	color: #ffffff;
-	font-family: "Roboto Light";
+	/*font-family: "Roboto Light";*/
 	font-size: 21px;
 	font-weight: 300;
 	line-height: 28px;
@@ -74,11 +78,11 @@ h2.title {
 
 .promo .promo_text span{
 	color: #f9bf3b;
-	font-family: "Roboto - Bold";
+	/*font-family: "Roboto - Bold";*/
 	font-weight: 700;
 }
 
-.promo .promo_btn {
+.promo .promo_btn , .gift .gift_btn{
 	display: block;
 	/*margin: 73px auto; */
 	margin: 0 auto;
@@ -89,7 +93,7 @@ h2.title {
 	border: 4px solid rgba(0, 0, 0, 0.23);
 	background-image: linear-gradient(to top, #2798b9 0%,#3ab6da 100%);
 	color: #ffffff;
-	font-family: "Roboto Condensed";
+	/*font-family: "Roboto Condensed";*/
 	font-size: 21px;
 	font-weight: 400;
 	line-height: 24px;
@@ -105,7 +109,7 @@ h2.title {
 
 .more .more_text {
 	color: #ffffff;
-	font-family: "Roboto - Thin";
+	/*font-family: "Roboto - Thin";*/
 	font-size: 15px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -124,9 +128,9 @@ h2.title {
 	padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header, .finish .finish_header {
+.waiting .waiting_header, .finish .finish_header, .waiting .waiting_header{
 	color: #252525;
-	font-family: Roboto -Bold;
+	/*font-family: Roboto -Bold;*/
 	font-size: 30px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -136,6 +140,8 @@ h2.title {
 .finish , .finish_header {
 	color: #ffffff;
 }
+
+
 
 
 .waiting .waiting_divider , .finish .finish_divider {
