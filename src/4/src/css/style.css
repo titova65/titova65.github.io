@@ -1,0 +1,44 @@
+.container {
+
+height: 1021px;
+background: url("../img/laptop-work-1241628.jpg") center center/cover no-repeat;
+}
+
+ .promo_text {
+ 
+    color: #000000;
+	font-family: Ariel;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 135px;
+	 margin-left: 10px;
+
+}
+
+.title{
+    color: #000000;
+    font-family: Trochut;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 113px;
+    margin-left: 135px;
+
+
+}
+
+ .work1, .work2, .work3, .work4, .work5, a {
+    color: #ffffff;
+ 	font-family: Arial;
+ 	font-style: normal;
+ 	font-weight: bold;
+ 	font-size: 48px;
+ 	line-height: 55px;
+ 	
+
+
+ }
+
